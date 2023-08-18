@@ -19,9 +19,14 @@ public class Ordenamiento {
         System.out.println("Has ingresado los siguientes números:");
 
         for (int num : numbers) {
-            System.out.print(num + " ");
+            System.out.print(num + " - ");
         }
-        
+        System.out.println("-------------------------");
+        ordenar(numbers);
+        System.out.println("Números ordenados en forma ascendente:");
+        for (int num : numbers) {
+            System.out.print(num + " - ");
+        }
 
     }
     public static void ordenar(int[] arr) {
