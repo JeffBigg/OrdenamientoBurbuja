@@ -12,6 +12,10 @@ public class Ordenamiento {
 
         int[] numbers = new int[5];
         
+        for (int i = 0; i < 4; i++) {
+            System.out.print("Número " + (i + 1) + ": ");
+            numbers[i] = scanner.nextInt();
+        }
         
         
     }
